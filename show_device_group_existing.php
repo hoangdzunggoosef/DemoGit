@@ -94,6 +94,9 @@ extend = 1;
     $icons = $lang->getElementsByTagName( "Extra_icon" );
 	$icon = $icons->item(0)->nodeValue;
     
+    $icons2 = $lang->getElementsByTagName( "Extra_icon" );
+	$icon2 = $icons->item(0)->nodeValue;
+    
     endforeach;
 	}
 	?>
